@@ -1,0 +1,7 @@
+com\eshop\test\ProductDAOTest.class
+com\eshop\test\UserDetailTest.class
+com\eshop\test\GeneralDBConfig.class
+com\eshop\test\CategoryDAOTest.class
+com\eshop\test\CartDAOTest.class
+com\eshop\test\OrderDetailDAOTest.class
+com\eshop\test\SupplierDAOTest.class
