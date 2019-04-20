@@ -30,13 +30,13 @@ public class SupplierDAOTest {
 	    
 	    supplierDAO=(SupplierDAO) context.getBean("supplierDAO");
 	}
-	@Ignore
+    @Ignore
 	@Test
 	public void Test()
 	{
 		Supplier supplier=new Supplier();
-		supplier.setSupplierName("Techno Distributors");
-		supplier.setSupplierDesc("Technical parts");
+		supplier.setSupplierName("Pantaloons");
+		supplier.setSupplierDesc("Fashionable Clothes");
 		
 		assertTrue("Problem in adding the supplier",supplierDAO.addSupplier(supplier));
 	}

@@ -34,11 +34,11 @@ public class UserDetailTest {
 		UserDetail user=new UserDetail();
 		
 		user.setUsername("sravan");
-		user.setPassword("sravan3012");
+		user.setPassword("Rani");
 		user.setRole("ROLE_USER");
 		user.setEnabled(true);
-		user.setCustomerName("Sravan");
-		user.setCustomerAddr("Chandrapur");
+		user.setCustomerName("SwaroopaRani");
+		user.setCustomerAddr("Suryapet");
 		
 		assertTrue("Problem in adding User:",userDetailDAO.registerUser(user));
 	}

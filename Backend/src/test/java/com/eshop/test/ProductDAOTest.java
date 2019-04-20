@@ -23,7 +23,7 @@ public class ProductDAOTest
 		context.refresh();
 		productDAO=(ProductDAO)context.getBean("productDAO");
 	}
-	@Ignore
+    @Ignore
     @Test
 	public void addProductTest()
 	{
